@@ -7,45 +7,58 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="site-header">
-    <img class="avatar" src="https://via.placeholder.com/140" alt="Your photo or avatar" />
-    <h1>Angky</h1>
-    <p class="tagline">Developer • Learner • Creator</p>
-    <nav class="social">
-      <a href="https://github.com/akunkhususluar1" target="_blank" rel="noopener">GitHub</a>
-      <!-- Add other links: LinkedIn, Twitter, etc. -->
-    </nav>
-  </header>
+  <div class="container">
+    <header class="site-header">
+      <!-- Upload your avatar as "avatar.jpg" to the repository root -->
+      <img class="avatar" src="avatar.jpg" alt="Angky — avatar" />
+      <h1>Angky</h1>
+      <p class="tagline">Aspiring Coder • Learner</p>
+      <nav class="social">
+        <a href="https://github.com/akunkhususluar1" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </header>
 
-  <main class="content">
-    <section class="about">
-      <h2>About me</h2>
-      <p>Hi — I'm Angky. I build small web projects and learn new technologies. This is a simple portfolio to show my work.</p>
-    </section>
+    <main class="content">
+      <section class="about">
+        <h2>About</h2>
+        <p>I try new things and learn from each experience. I make simple designs and build games — always improving by doing projects and taking on new challenges.</p>
+      </section>
 
-    <section class="projects">
-      <h2>Projects</h2>
-      <ul class="project-list">
-        <li>
-          <h3>Project One</h3>
-          <p>Short description. <a href="#">View</a></p>
-        </li>
-        <li>
-          <h3>Project Two</h3>
-          <p>Short description. <a href="#">View</a></p>
-        </li>
-      </ul>
-    </section>
+      <section class="projects">
+        <h2>Projects</h2>
 
-    <section class="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
-    </section>
-  </main>
+        <article class="project">
+          <h3>Design Work</h3>
+          <!-- Upload your design image as "design1.jpg" -->
+          <img src="design1.jpg" alt="Design sample" class="project-img" />
+          <p class="muted">Design samples — image placeholder. (You said you'll upload and edit the caption later.)</p>
+        </article>
 
-  <footer class="site-footer">
-    <p>© <span id="year"></span> Angky</p>
-  </footer>
+        <article class="project">
+          <h3>Booming RNG Era</h3>
+          <!-- Upload your game screenshot as "game1.jpg" -->
+          <img src="game1.jpg" alt="Booming RNG Era — screenshot" class="project-img" />
+          <p>Roblox game created with Luau. Launched June 2025 and reached over 200K visits — my most successful project to date.</p>
+        </article>
+
+        <article class="project">
+          <h3>Luau Development</h3>
+          <!-- Upload another Luau/dev image as "luau1.jpg" -->
+          <img src="luau1.jpg" alt="Luau development" class="project-img" />
+          <p>Snapshots from my Luau (Roblox) work — coding, testing, and iterating on gameplay systems.</p>
+        </article>
+      </section>
+
+      <section class="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:angkyhmwn@gmail.com">angkyhmwn@gmail.com</a></p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Angky</p>
+    </footer>
+  </div>
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
